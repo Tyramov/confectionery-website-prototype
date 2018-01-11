@@ -19,7 +19,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #aaa2e1;
 }
 
 .home-header {
@@ -33,6 +32,15 @@ h1 {
   margin: 0 1rem;
   font-size: 3rem;
   color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-family: Lobster, cursive;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #bdbfbd;
 }
 
 nav ul {
@@ -52,6 +60,7 @@ nav a {
   padding: .5em .75em;
   color: #333;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 nav a:hover {
@@ -59,19 +68,55 @@ nav a:hover {
   color: #fff;
 }
 
-article {
-  padding: .2rem 1rem;
+div {
+  display: block;
 }
 
-.card-title {
-  padding: .3rem 1rem .3rem calc(1rem - 4px);
-  border-left: 4px solid #ea2acd;
-  background-color: rgba(255, 255, 255, .6);
+main {
+  font-family: Helvetica;
   width: 100%;
 }
 
-.card-head {
+main ul{
+  margin:0;
+  padding:0;
+}
+
+.new-releases li {
+  display: inline-block;
+  font-size: 0.75rem;
+  width: 23%;
+  margin: .5em;
+  padding: 1em;
+  background-color: #8787d0;
+  border: 3px solid #bdbfbd;
+  border-radius: 6px;
+}
+
+.img-flex {
+  display: block;
   position: relative;
+  width: 100%;
+  margin: auto;
+  margin-bottom: .5em;
+}
+
+.card-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.detail-button{
+  font-family: Lobster, cursive;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: .25em;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #bdbfbd;
+  border: 3px solid #fff;
+  border-radius: 12px
 }
 
 @media only screen and (min-width: 25em) {
@@ -101,17 +146,6 @@ article {
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: left;
-  }
-
-  h1,
-  nav {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  h1 {
-    margin-bottom: 0;
-    margin-right: 1.5rem;
   }
 }
 
