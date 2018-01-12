@@ -213,14 +213,16 @@ section {
 }
 
 @media only screen and (min-width: 25em) {
-  
+
   nav li {
     display: inline-block;
     text-align: center;
   }
+
   .img-flex {
     width: 0;
   }
+
   .detail-button {
     display: block;
     font-family: Lobster, cursive;
@@ -236,10 +238,12 @@ section {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
   }
+
   .new-releases li {
     display: inline-block;
     font-size: .75rem;
@@ -250,6 +254,7 @@ section {
     border: 3px solid #bdbfbd;
     border-radius: 6px;
   }
+
   .pop-picks li {
     display: inline-block;
     font-size: .75rem;
@@ -259,6 +264,7 @@ section {
     border: 3px solid #bdbfbd;
     border-radius: 6px;
   }
+
   .img-flex {
     display: block;
     position: relative;
@@ -266,6 +272,7 @@ section {
     margin: auto;
     margin-bottom: .5em;
   }
+
   .img-profile {
     float: left;
     position: relative;
@@ -276,10 +283,12 @@ section {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
   }
+
   header {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -288,6 +297,7 @@ section {
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
   }
