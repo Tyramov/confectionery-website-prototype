@@ -57,6 +57,30 @@ h3 {
   background-color: #bdbfbd;
 }
 
+h4 {
+  color: #fff;
+  font-family: Lobster, cursive;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  margin-top: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #bdbfbd;
+}
+
+h5 {
+  color: #fff;
+  font-family: Lobster, cursive;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  margin-top: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #824da0;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -115,6 +139,16 @@ width: 0;
   width: 0;
 }
 
+.back-float {
+  float: right;
+  top: 0;
+  left:0;
+}
+
+.img-float {
+  position: absolute;
+}
+
 .card-label {
   position: absolute;
   left: 0;
@@ -142,9 +176,15 @@ width: 0;
 .about {
   clear: left;
   font-size: 1rem;
-  text-align: left;
+  text-align: center;
   font-family: Helvetica;
   padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.about-us {
+  background-color: #824da0;
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -199,6 +239,7 @@ width: 0;
 
   .img-profile {
     float: left;
+    position: relative;
     width: 25%;
     margin: 2em;
     border-radius: 12px;
