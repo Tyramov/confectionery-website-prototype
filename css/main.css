@@ -37,6 +37,20 @@ h1 {
 h2 {
   color: #fff;
   font-family: Lobster, cursive;
+  margin-bottom: 0;
+  margin-top: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #bdbfbd;
+}
+
+h3 {
+  color: #fff;
+  font-family: Lobster, cursive;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  margin-top: 0.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
@@ -85,7 +99,7 @@ main ul{
 .new-releases li {
   display: inline-block;
   font-size: 0.75rem;
-  width: 23%;
+  width: 50%;
   margin: .5em;
   padding: 1em;
   background-color: #8787d0;
@@ -94,11 +108,11 @@ main ul{
 }
 
 .img-flex {
-  display: block;
-  position: relative;
-  width: 100%;
-  margin: auto;
-  margin-bottom: .5em;
+width: 0;
+}
+
+.img-profile {
+  width: 0;
 }
 
 .card-label {
@@ -107,7 +121,9 @@ main ul{
   top: 0;
 }
 
-.detail-button{
+.detail-button {
+  float: left;
+  display: block;
   font-family: Lobster, cursive;
   margin-left: 2em;
   margin-right: 2em;
@@ -119,11 +135,40 @@ main ul{
   border-radius: 12px
 }
 
+.after-detail-button {
+  clear: left;
+}
+
+.about {
+  clear: left;
+  font-size: 1rem;
+  text-align: left;
+  font-family: Helvetica;
+  padding-left: 1rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li {
     display: inline-block;
     text-align: center;
+  }
+
+  .img-flex {
+  width: 0;
+  }
+
+  .detail-button {
+    display: block;
+    font-family: Lobster, cursive;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: .25em;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #bdbfbd;
+    border: 3px solid #fff;
+    border-radius: 12px
   }
 }
 
@@ -132,6 +177,31 @@ main ul{
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+  .new-releases li {
+    display: inline-block;
+    font-size: 0.75rem;
+    width: 23%;
+    margin: .5em;
+    padding: 1em;
+    background-color: #8787d0;
+    border: 3px solid #bdbfbd;
+    border-radius: 6px;
+  }
+
+  .img-flex {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-bottom: .5em;
+  }
+
+  .img-profile {
+    float: left;
+    width: 25%;
+    margin: 2em;
+    border-radius: 12px;
   }
 }
 
