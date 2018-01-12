@@ -13,7 +13,9 @@ html {
   font: normal 100%/1.3 sans-serif;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -38,10 +40,10 @@ h2 {
   color: #fff;
   font-family: Lobster, cursive;
   margin-bottom: 0;
-  margin-top: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  margin-top: .25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
   background-color: #bdbfbd;
 }
 
@@ -50,10 +52,10 @@ h3 {
   font-family: Lobster, cursive;
   font-size: 1.3rem;
   margin-bottom: 0;
-  margin-top: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  margin-top: .25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
   background-color: #bdbfbd;
 }
 
@@ -62,10 +64,10 @@ h4 {
   font-family: Lobster, cursive;
   font-size: 1.3rem;
   margin-bottom: 0;
-  margin-top: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  margin-top: .25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
   background-color: #bdbfbd;
 }
 
@@ -74,10 +76,10 @@ h5 {
   font-family: Lobster, cursive;
   font-size: 1.3rem;
   margin-bottom: 0;
-  margin-top: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  margin-top: .25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
   background-color: #bdbfbd;
 }
 
@@ -115,14 +117,14 @@ main {
   width: 100%;
 }
 
-main ul{
-  margin:0;
-  padding:0;
+main ul {
+  margin: 0;
+  padding: 0;
 }
 
 .new-releases li {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: .75rem;
   width: 50%;
   margin: .5em;
   padding: 1em;
@@ -132,7 +134,7 @@ main ul{
 }
 
 .img-flex {
-width: 0;
+  width: 0;
 }
 
 .img-profile {
@@ -142,7 +144,7 @@ width: 0;
 .back-float {
   float: right;
   top: 0;
-  left:0;
+  left: 0;
 }
 
 .img-float {
@@ -166,7 +168,7 @@ width: 0;
   color: #fff;
   background-color: #bdbfbd;
   border: 3px solid #fff;
-  border-radius: 12px
+  border-radius: 12px;
 }
 
 .after-detail-button {
@@ -184,7 +186,6 @@ width: 0;
 
 .about-us {
   background-color: #824da0;
-
 }
 
 section {
@@ -198,8 +199,8 @@ section {
   font-size: 1rem;
   border: 4px solid #bdbfbd;
   border-radius: 12px;
-  padding: 0.5rem;
-  margin: 0.5rem;
+  padding: .5rem;
+  margin: .5rem;
   background-color: #8787d0;
   text-align: left;
   font-family: Helvetica;
@@ -212,16 +213,14 @@ section {
 }
 
 @media only screen and (min-width: 25em) {
-
+  
   nav li {
     display: inline-block;
     text-align: center;
   }
-
   .img-flex {
-  width: 0;
+    width: 0;
   }
-
   .detail-button {
     display: block;
     font-family: Lobster, cursive;
@@ -232,19 +231,18 @@ section {
     color: #fff;
     background-color: #bdbfbd;
     border: 3px solid #fff;
-    border-radius: 12px
+    border-radius: 12px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-
   html {
     font-size: 110%;
     line-height: 1.4;
   }
   .new-releases li {
     display: inline-block;
-    font-size: 0.75rem;
+    font-size: .75rem;
     width: 23%;
     margin: .5em;
     padding: 1em;
@@ -252,17 +250,15 @@ section {
     border: 3px solid #bdbfbd;
     border-radius: 6px;
   }
-
   .pop-picks li {
     display: inline-block;
-    font-size: 0.75rem;
+    font-size: .75rem;
     width: 23%;
     margin: .5em;
     padding: 1em;
     border: 3px solid #bdbfbd;
     border-radius: 6px;
   }
-
   .img-flex {
     display: block;
     position: relative;
@@ -270,7 +266,6 @@ section {
     margin: auto;
     margin-bottom: .5em;
   }
-
   .img-profile {
     float: left;
     position: relative;
@@ -281,12 +276,10 @@ section {
 }
 
 @media only screen and (min-width: 60em) {
-
   html {
     font-size: 120%;
     line-height: 1.5;
   }
-
   header {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -295,7 +288,6 @@ section {
 }
 
 @media only screen and (min-width: 90em) {
-
   html {
     font-size: 130%;
   }
