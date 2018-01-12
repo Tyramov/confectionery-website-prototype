@@ -78,7 +78,7 @@ h5 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
-  background-color: #824da0;
+  background-color: #bdbfbd;
 }
 
 nav ul {
@@ -185,6 +185,25 @@ width: 0;
 .about-us {
   background-color: #824da0;
 
+}
+
+section {
+  background-color: #824da0;
+  padding-bottom: 1rem;
+}
+
+.contact-us {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  border: 4px solid #fff;
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin: 1;
+  background-color: #8787d0;
+  text-align: left;
+  font-family: Helvetica;
 }
 
 @media only screen and (min-width: 25em) {
